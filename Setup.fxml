@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.setting">
+   <children>
+      <HBox layoutX="87.0" layoutY="188.0" prefHeight="444.0" prefWidth="927.0">
+         <children>
+            <VBox prefHeight="444.0" prefWidth="559.0">
+               <children>
+                  <Button fx:id="madd_btn" mnemonicParsing="false" onAction="#add" prefHeight="451.0" prefWidth="470.0" text="메뉴 추가">
+                     <font>
+                        <Font size="80.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="590.0" prefWidth="575.0">
+               <children>
+                  <Button fx:id="mdelete_btn" mnemonicParsing="false" onAction="#delete" prefHeight="611.0" prefWidth="470.0" text="메뉴 삭제">
+                     <font>
+                        <Font size="80.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="102.0" layoutX="348.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" width="418.0" />
+      <Label layoutX="464.0" layoutY="42.0" text="설정 ">
+         <font>
+            <Font size="80.0" />
+         </font>
+      </Label>
+      <Button fx:id="back_btn" layoutX="451.0" layoutY="660.0" mnemonicParsing="false" onAction="#back" prefHeight="65.0" prefWidth="186.0" text="메인 화면" />
+   </children>
+</AnchorPane>
