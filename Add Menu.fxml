@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddMenuController">
+   <children>
+      <Button fx:id="add_btn" layoutX="565.0" layoutY="432.0" mnemonicParsing="false" onAction="#add" prefHeight="82.0" prefWidth="172.0" text="추가 하기">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="240.0" layoutX="253.0" layoutY="145.0" stroke="BLACK" strokeType="INSIDE" width="520.0" />
+      <VBox layoutX="262.0" layoutY="157.0" prefHeight="209.0" prefWidth="503.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="143.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="295.0">
+                     <children>
+                        <Label prefHeight="36.0" prefWidth="124.0" text="이미지">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" top="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label fx:id="file" prefHeight="36.0" prefWidth="199.0" text="( 파일 출력 )">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="40.0" top="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <HBox prefHeight="70.0" prefWidth="201.0">
+                           <children>
+                              <Button fx:id="open_btn" mnemonicParsing="false" onAction="#open" prefHeight="48.0" prefWidth="137.0" text="파일 열기">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="295.0">
+                     <children>
+                        <Label prefHeight="36.0" prefWidth="68.0" text="메뉴">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" top="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="menu" prefHeight="56.0" prefWidth="389.0" text="                메뉴 입력">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" top="7.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="91.0" prefWidth="503.0">
+                     <children>
+                        <Label prefHeight="36.0" prefWidth="68.0" text="가격">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" top="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="price" prefHeight="56.0" prefWidth="389.0" text="                가격 입력">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" top="7.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children></VBox>
+      <Button fx:id="back_btn" layoutX="286.0" layoutY="426.0" mnemonicParsing="false" onAction="#back" prefHeight="82.0" prefWidth="172.0" text="뒤로 가기">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
