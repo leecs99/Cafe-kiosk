@@ -92,17 +92,9 @@
                         </HBox>
                         <HBox prefHeight="133.0" prefWidth="700.0">
                            <children>
-                              <Label alignment="CENTER" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #C9BA9B;" text="Coffee">
-                                 <HBox.margin>
-                                    <Insets top="18.0" />
-                                 </HBox.margin>
-                                 <font>
-                                    <Font size="28.0" />
-                                 </font>
-                              </Label>
                               <VBox prefHeight="133.0" prefWidth="133.0">
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="40.0" />
                                  </HBox.margin>
                                  <children>
                                     <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
@@ -139,7 +131,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="30.0" />
                                  </HBox.margin>
                               </VBox>
                               <VBox prefHeight="133.0" prefWidth="133.0">
@@ -160,7 +152,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="30.0" />
                                  </HBox.margin>
                               </VBox>
                               <VBox prefHeight="133.0" prefWidth="133.0">
@@ -181,7 +173,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="30.0" />
                                  </HBox.margin>
                               </VBox>
                            </children>
@@ -191,14 +183,6 @@
                         </HBox>
                         <HBox prefHeight="133.0" prefWidth="700.0">
                            <children>
-                              <Label alignment="CENTER" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #BDC2BB;" text="Drink">
-                                 <HBox.margin>
-                                    <Insets top="18.0" />
-                                 </HBox.margin>
-                                 <font>
-                                    <Font size="28.0" />
-                                 </font>
-                              </Label>
                               <VBox prefHeight="133.0" prefWidth="133.0">
                                  <children>
                                     <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
@@ -217,7 +201,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="40.0" />
                                  </HBox.margin>
                               </VBox>
                               <VBox prefHeight="133.0" prefWidth="133.0">
@@ -238,7 +222,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="30.0" />
                                  </HBox.margin>
                               </VBox>
                               <VBox prefHeight="133.0" prefWidth="133.0">
@@ -259,7 +243,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="30.0" />
                                  </HBox.margin>
                               </VBox>
                            </children>
@@ -269,14 +253,6 @@
                         </HBox>
                         <HBox prefHeight="133.0" prefWidth="700.0">
                            <children>
-                              <Label alignment="CENTER" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #D2D5B8;" text="Cake">
-                                 <HBox.margin>
-                                    <Insets top="18.0" />
-                                 </HBox.margin>
-                                 <font>
-                                    <Font size="28.0" />
-                                 </font>
-                              </Label>
                               <VBox prefHeight="133.0" prefWidth="133.0">
                                  <children>
                                     <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
@@ -295,7 +271,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="40.0" />
                                  </HBox.margin>
                               </VBox>
                               <VBox prefHeight="133.0" prefWidth="133.0">
@@ -316,7 +292,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="30.0" />
                                  </HBox.margin>
                               </VBox>
                               <VBox prefHeight="133.0" prefWidth="133.0">
@@ -337,7 +313,7 @@
                                     </Button>
                                  </children>
                                  <HBox.margin>
-                                    <Insets left="20.0" />
+                                    <Insets left="30.0" />
                                  </HBox.margin>
                               </VBox>
                            </children>
