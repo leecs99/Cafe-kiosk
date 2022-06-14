@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="838.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GuideController">
+   <children>
+      <TabPane prefHeight="576.0" prefWidth="838.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="580.0" prefWidth="838.0">
+                     <children>
+                        <ImageView fitHeight="500.0" fitWidth="710.0" layoutX="71.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_1.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" textAlignment="CENTER" />
+                        <Label layoutX="80.0" layoutY="440.0" text="Company Guide 버튼을 클릭후, 나오는 두 가지의 사이트를 참고">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="2">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="838.0">
+                     <children>
+                        <ImageView fitHeight="500.0" fitWidth="710.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_2.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" />
+                        <Label layoutX="90.0" layoutY="440.0" text="BBB- 5년 채권(BBB-, 5년)에 해당하는 값을 입력(요구수익률)">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="3">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="416.0">
+                     <children>
+                        <ImageView fitHeight="500.0" fitWidth="710.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_3.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" />
+                        <Label layoutX="91.0" layoutY="435.0" text="BBB- 5년 채권(BBB-, 5년)에 해당하는 값을 입력(요구수익률)">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="4">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="551.0" prefWidth="838.0">
+                     <children>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" />
+                        <ImageView fitHeight="510.0" fitWidth="710.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_4.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="238.0" layoutY="440.0" text="입력 버튼 클릭을 통해 입력 실행">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="5">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="416.0">
+                     <children>
+                        <ImageView fitHeight="425.0" fitWidth="365.0" layoutX="244.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_5.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" />
+                        <Label layoutX="150.0" layoutY="440.0" text="Company Guide에서 해당되는 정보를 입력합니다.">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="6">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="416.0">
+                     <children>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" />
+                        <ImageView fitHeight="460.0" fitWidth="403.0" layoutX="250.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_6.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="229.0" layoutY="451.0" text="종목(이름)에는 종목명을 입력합니다.">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="7">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="416.0">
+                     <children>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" textAlignment="CENTER" />
+                        <ImageView fitHeight="424.0" fitWidth="710.0" layoutX="49.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="457.0" fitWidth="637.0" layoutX="101.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_7.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="101.0" layoutY="460.0" text="'자본'에는 재무제표에서 최신 자본을 입력합니다. *억단위">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="8">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="416.0">
+                     <children>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" textAlignment="CENTER" />
+                        <ImageView fitHeight="390.0" fitWidth="710.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="598.0" fitWidth="820.0" layoutX="10.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_8.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="100.0" layoutY="444.0" text="'ROE'에는 재무비율에서 다음 년도 ROE 수치를 입력합니다.">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="9">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="416.0">
+                     <children>
+                        <ImageView fitHeight="455.0" fitWidth="400.0" layoutX="210.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_9.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" />
+                        <Label layoutX="182.0" layoutY="452.0" text="'발행주식 수'에는 보통주 수를 입력합니다.">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="10">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="416.0">
+                     <children>
+                        <ImageView fitHeight="438.0" fitWidth="838.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_10.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" />
+                        <Label layoutX="99.0" layoutY="446.0" text="'자기주식 수'에는 지분분석에서 자기주식 수를 입력합니다. ">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="11">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="416.0">
+                     <children>
+                        <ImageView fitHeight="500.0" fitWidth="710.0" layoutX="65.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="guide_image/guide_image_11.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="387.0" layoutY="492.0" mnemonicParsing="false" onAction="#GoToMain" text="홈으로" textAlignment="CENTER" />
+                        <Label layoutX="245.0" layoutY="456.0" text="삭제 버튼 클릭을 통해 튜플 삭제">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets top="3.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="400.0">
+         <children>
+            <Label text="종목(이름) ">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField id="txtStocks" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="400.0">
+         <children>
+            <Label text="자본">
+               <HBox.margin>
+                  <Insets right="45.0" />
+               </HBox.margin>
+            </Label>
+            <TextField id="txtCapital" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="400.0">
+         <children>
+            <Label text="ROE">
+               <HBox.margin>
+                  <Insets right="45.0" />
+               </HBox.margin>
+            </Label>
+            <TextField id="txtRoe" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="400.0">
+         <children>
+            <Label text="발행주식 수">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField id="txtNumberOfStock" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="400.0">
+         <children>
+            <Label text="자기주식 수">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField id="txtTreasury" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="70.0" prefWidth="400.0">
+         <children>
+            <Button id="btnInput" mnemonicParsing="false" text="입력">
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </HBox.margin></Button>
+            <Button id="btnCancel" mnemonicParsing="false" text="취소">
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+   </children>
+</VBox>
